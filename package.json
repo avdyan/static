@@ -1,0 +1,48 @@
+{
+  "name": "static-file-manager",
+  "version": "1.0.0",
+  "description": "A modern web-based file manager that automatically displays all your static resources",
+  "main": "index.html",
+  "scripts": {
+    "build": "node generate-structure.js",
+    "build:bash": "bash generate-structure.sh",
+    "dev": "npm run build && python -m http.server 8000",
+    "serve": "python -m http.server 8000",
+    "serve:node": "npx http-server -p 8000 -o",
+    "watch": "npm run build && npm run serve",
+    "clean": "rm -f file-structure.json",
+    "rebuild": "npm run clean && npm run build"
+  },
+  "keywords": [
+    "file-manager",
+    "static-files",
+    "web-interface",
+    "file-browser",
+    "responsive-design"
+  ],
+  "author": "Andres",
+  "license": "MIT",
+  "engines": {
+    "node": ">=12.0.0"
+  },
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "."
+  },
+  "files": [
+    "index.html",
+    "css/",
+    "js/",
+    "generate-structure.js",
+    "generate-structure.sh",
+    "README.md"
+  ],
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}

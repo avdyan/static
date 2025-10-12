@@ -3,12 +3,51 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Static File Server</title>
+    <title>📁 File Manager - Static Server</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>Welcome to Static File Server</h1>
-    <p>This is a basic static file server structure.</p>
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <h1>📁 File Manager</h1>
+            <p>Explora y gestiona todos tus archivos estáticos de manera fácil y visual</p>
+        </header>
+
+        <!-- Breadcrumb Navigation -->
+        <nav class="breadcrumb">
+            <div class="breadcrumb-path">
+                <!-- Se genera dinámicamente -->
+            </div>
+        </nav>
+
+        <!-- File Manager -->
+        <main class="file-manager">
+            <!-- Back Button -->
+            <button class="back-button hidden">← Atrás</button>
+            
+            <!-- Loading State -->
+            <div class="loading">
+                <div class="spinner"></div>
+            </div>
+
+            <!-- Files Grid -->
+            <div class="file-grid">
+                <!-- Se genera dinámicamente -->
+            </div>
+        </main>
+    </div>
+
+    <!-- Preview Modal -->
+    <div class="preview-modal">
+        <div class="preview-content">
+            <!-- Contenido de preview se genera dinámicamente -->
+        </div>
+    </div>
+
     <script src="js/main.js"></script>
 </body>
 </html>

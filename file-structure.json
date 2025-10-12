@@ -1,0 +1,125 @@
+{
+  "generated": "2025-10-12T10:54:57-06:00",
+  "root": "/Users/andres/code/static",
+  "structure": {
+    "Makefile": {
+      "type": "other",
+      "size": "1.8 KB",
+      "path": "Makefile",
+      "lastModified": "2025-10-12T10:54:14Z"
+    },
+    "README.md": {
+      "type": "other",
+      "size": "7.3 KB",
+      "path": "README.md",
+      "lastModified": "2025-10-12T10:54:45Z"
+    },
+    "audio": {
+      "type": "folder",
+      "path": "audio",
+      "children": {
+        "make-u-mine.mp3": {
+          "type": "audio",
+          "size": "1.3 MB",
+          "path": "audio/make-u-mine.mp3",
+          "lastModified": "2025-10-06T18:33:42Z"
+        },
+        "we fell in love in octobers.mp3": {
+          "type": "audio",
+          "size": "487.4 KB",
+          "path": "audio/we fell in love in octobers.mp3",
+          "lastModified": "2025-10-12T10:45:41Z"
+        }
+      }
+    },
+    "css": {
+      "type": "folder",
+      "path": "css",
+      "children": {
+        "style.css": {
+          "type": "other",
+          "size": "5.7 KB",
+          "path": "css/style.css",
+          "lastModified": "2025-10-12T10:48:17Z"
+        }
+      }
+    },
+    "fonts": {
+      "type": "folder",
+      "path": "fonts",
+      "children": {}
+    },
+    "images": {
+      "type": "folder",
+      "path": "images",
+      "children": {
+        "galaxia-hotwheels": {
+          "type": "folder",
+          "path": "images/galaxia-hotwheels",
+          "children": {
+            "1.png": {
+              "type": "image",
+              "size": "72.7 KB",
+              "path": "images/galaxia-hotwheels/1.png",
+              "lastModified": "2025-10-06T18:29:19Z"
+            },
+            "2.png": {
+              "type": "image",
+              "size": "25.3 KB",
+              "path": "images/galaxia-hotwheels/2.png",
+              "lastModified": "2025-10-06T18:29:19Z"
+            },
+            "3.png": {
+              "type": "image",
+              "size": "102.7 KB",
+              "path": "images/galaxia-hotwheels/3.png",
+              "lastModified": "2025-10-06T18:29:19Z"
+            },
+            "4.png": {
+              "type": "image",
+              "size": "58.3 KB",
+              "path": "images/galaxia-hotwheels/4.png",
+              "lastModified": "2025-10-06T18:29:19Z"
+            },
+            "5.png": {
+              "type": "image",
+              "size": "58.6 KB",
+              "path": "images/galaxia-hotwheels/5.png",
+              "lastModified": "2025-10-06T18:29:19Z"
+            },
+            "hotwheels-logo.png": {
+              "type": "image",
+              "size": "30.0 KB",
+              "path": "images/galaxia-hotwheels/hotwheels-logo.png",
+              "lastModified": "2025-10-06T18:29:19Z"
+            }
+          }
+        }
+      }
+    },
+    "index.html": {
+      "type": "other",
+      "size": "1.6 KB",
+      "path": "index.html",
+      "lastModified": "2025-10-12T10:49:17Z"
+    },
+    "js": {
+      "type": "folder",
+      "path": "js",
+      "children": {
+        "main.js": {
+          "type": "other",
+          "size": "11.7 KB",
+          "path": "js/main.js",
+          "lastModified": "2025-10-12T10:53:42Z"
+        }
+      }
+    },
+    "package.json": {
+      "type": "other",
+      "size": "1.0 KB",
+      "path": "package.json",
+      "lastModified": "2025-10-12T10:53:59Z"
+    }
+  }
+}
